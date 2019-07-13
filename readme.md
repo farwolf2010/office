@@ -1,10 +1,10 @@
-#office组件
+# office组件
 
 能够显示word,excel,ppt,pdf文件
 传入src即可
 
 ![](/shot.gif)
-###用法
+### 用法
 ``` javascript
 	<template>
     <div style="align-items: center;justify-content: center">
