@@ -32,7 +32,7 @@ android {
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
-    api project(':farwolf.weex')
+    api 'com.farwolf.weexplus:farwolf.weex:latest.integration'
     api 'pub.devrel:easypermissions:0.4.3'
     api 'com.squareup.okio:okio:1.11.0'
     api 'com.squareup.okhttp3:okhttp:3.5.0'
