@@ -9,8 +9,8 @@
 #import "farwolf.h"
 #import "farwolf_weex.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
-#import <WeexSDK/WXEventModuleProtocol.h>
-#import <WeexSDK/WXModuleProtocol.h>
+#import "WXEventModuleProtocol.h">"
+#import "WXModuleProtocol.h"
 @interface WXOfficeModule : NSObject <WXModuleProtocol>
 
 @end

@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <WeexSDK/WXSDKInstance.h>
-#import <WeexSDK/WXSDKEngine.h>
+#import "WXSDKInstance.h"
+#import "WXSDKEngine.h"
 #import "farwolf_weex.h"
 
 
