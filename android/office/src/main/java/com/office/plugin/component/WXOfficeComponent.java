@@ -283,4 +283,16 @@ public class WXOfficeComponent extends WXComponent<LinearLayout> {
         return str;
     }
 
+
+    boolean hasUnload=false;
+    public void removeAllEvent() {
+        super.removeAllEvent();
+        if(!hasUnload){
+            hasUnload=true;
+            return;
+        }
+        SuperFileView2 tp= (SuperFileView2)getHostView().getChildAt(0);
+        tp.onStopDisplay();
+    }
+
 }
